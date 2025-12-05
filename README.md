@@ -2,26 +2,26 @@
 Wikipedia movie scraper done usivng jupyter notebook:
 Functionality:
 Importing libraries
-grabbing first link
-using beautiful soup to navigate HTML
-getting the table from the URL
-what the data looks like in a dataframe
-Grabbing link
-using pretty soup
-scraping the data from URL 2021
-This is to grab the code for 2022
-using pretty soup
-This code was same as 2020 but just reformatted code
-put dataframe into movie variable to use later to combine
+Grabbing intial Wikipedia Movies URL
+Using BeautifulSoup to parse HTML
+Extracting movie table
+Showing scraped table
+Getting another URL
+Using BeautifulSoup to parse HTML
+Scraping the data from URL 2021
+Changed the code to extract data for 2022
+Using BeautifulSoup to parse HTML
+This code was same as 2020 but made adjustments
+put dataframe into movie variable to use later to concatinate them
 Getting the link and doing beautiful soup in same step
-this is the same as 2021 I just reformatted for 2023 because tables were the same
+Same as 2021 I just reformatted for 2023 because tables were the same format
 getting link for 2024 and using beautiful soup
 Same code for table 2020 to handle rowspan
-this is it in a dataframe is also got the heading I can clean after I scrape all the websites
-This is to grab the url for 2025 and using beautiful soup
-this is similar to what I did for 2021 but couldn't grab the title because they didn't add a title to the table
+Store in a dataframe with headers for later cleaning
+Extracting 2025 movies data with beautiful soup
+Similar to 2021 code but 2025 didn't have any headers
 making the columns match
-add the year column so I can do better analysis
+add the year column so I can do analysis
 Combining the dataframes
 cleaning the data
 Which year from 2020-25 had the highest box office?
